@@ -1,0 +1,3 @@
+[submodule "devcamp-challenge"]
+	path = devcamp-challenge
+	url = http://github.com/talios/devcamp-challenge.git
