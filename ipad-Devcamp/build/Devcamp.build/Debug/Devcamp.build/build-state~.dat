@@ -1,0 +1,116 @@
+TDevcamp
+v7
+r1
+cCheck dependencies
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/4308562775_922b9281ff_o.jpg
+c000000004BDBF0D000000000000D5321
+t1272705232
+s873249
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/DevcampViewController.xib
+c000000004BDBFE280000000000007B67
+t1272708648
+s31591
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/MainWindow.xib
+c000000004BDBFE3A000000000000623F
+t1272708666
+s25151
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/ResultsViewController.xib
+c000000004BDCB09400000000000075A4
+t1272754324
+s30116
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/SuggestViewController.xib
+c000000004BDCB48000000000000073E5
+t1272755328
+s29669
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/bg.png
+c000000004BACB512000000000001CE6C
+t1269609746
+s118380
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Info.plist
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Resources/4308562775_922b9281ff_o.jpg
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Resources/DevcampViewController.nib
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Resources/ResultsViewController.nib
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Resources/SuggestViewController.nib
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Resources/bg.png
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Resources/window-bg.png
+t2
+s0
+
+N/Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/window-bg.png
+c000000004BDBCD7C00000000000059F6
+t1272696188
+s23030
+
+NDevcamp-Info.plist
+c000000004BDBF0A200000000000004D6
+t1272705186
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294533612#294533612#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos3.2'1(4@58"error: There is no SDK with the name or path 'iphoneos3.2'294533612#18446744073709551615#0#0(1@0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileXIB /Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/DevcampViewController.xib
+r0
+
+CCompileXIB /Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/MainWindow.xib
+r0
+
+CCompileXIB /Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/ResultsViewController.xib
+r0
+
+CCompileXIB /Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/SuggestViewController.xib
+r0
+
+CCpResource build/Debug/Devcamp.app/Contents/Resources/4308562775_922b9281ff_o.jpg 4308562775_922b9281ff_o.jpg
+r0
+
+CCpResource build/Debug/Devcamp.app/Contents/Resources/bg.png bg.png
+r0
+
+CCpResource build/Debug/Devcamp.app/Contents/Resources/window-bg.png window-bg.png
+r0
+
+CProcessInfoPlistFile /Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app/Contents/Info.plist Devcamp-Info.plist
+r0
+
+CTouch /Users/antonystubbs/projects/datacom-2010-devcamp-projects/ipad-Devcamp/build/Debug/Devcamp.app
+r0
+
