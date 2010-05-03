@@ -1,0 +1,90 @@
+Code Shootout at Datacom Dev Camp 2010
+Solution by: Michael Lisser
+
+==== Task: =============================================================================
+
+The task set was to build a survey system that would allow a Gallop Poll style of survey. Where a number of questions can be asked and the
+user types/selects an answer. In this case from 1 to 5. The survey system then had to allow a total to be displayed. This could be done in any
+language using any system.
+
+==== Aim: ===============================================================================
+
+My aim with this was to use fairly standard production style technology, and show how this technology can be used lightly and quickly and still produce
+the desired results. I wanted to show how Java and its associated frameworks need not be just for massive application builds. Hence my solution does 
+a lot more than desired, it presents the UI in a web browser, and it stores the data to a MySQL database. It also provides a generic solution and structure
+for others to follow.
+
+==== Approach: ==========================================================================
+
+My approach was to build a generic survey system. Borrowing setup and structure for the project from past projects. Hence I used an existing database
+and connection rather than rebuild one, and similarly just borrowed UI components for the Web front end (the tables sort and filter for example).
+
+The code is rather straight forward, 
+
+There are three objects to the data model.
+
+1. Survey 
+2. SurveyQuestion
+3. SurveyAnswer
+
+The code also has two action classes.
+
+SurveyAction - controlls the Survey UI Access
+SurveyQuestionAction - controlls the Survey Question UI Access.
+
+The code has a business logic layer, represented by a set of service classes
+
+SurveyService - Manages access and logic for a Survey
+SurveyQuestionService - Manages access and logic for a SurveyQuestion
+
+And finally three different UI JSPs.
+
+manage - displays a list of objects
+display - displays a single object
+edit - edits a single object
+
+The software was built using Struts 2.0 and Hibernate 3.3 (in particular annotations). 
+
+The system was developed to run on JBoss (though it would be platform independent), and database persisted to MySQL.
+
+==== Lessons Learnt: =====================================================================
+
+1. Remember your syntax! By far the biggest issue I faced, and the one that stopped me completing the task well ahead of schedule was a particular 
+syntax used in accessing a list of objects from a HTML tag. This was a Struts specific issue that I knew existed but simply forgot the syntax for.
+You cant complete the task if you cant remember the code... however this was a minor issue and had I had access to the web would have solved it in
+minutes.
+
+2. Build up a set of library software you can reuse. Many issues you face again and again. A good example is the library code I used to persist data.
+It is platform independent, and will run on virtually any DB. This made coding much faster. Similar for the UI code, it was almost all borrowed from
+another project, as were the setup files, reference libraries, scripts, images, templates and so on... all I actually wrote were there 7 Java
+Class files and 6 JSP files (most of which were modifications of existing code anyway).
+
+3. Dont compete using clapped out old technology! My laptop was a temporary machine used for basic word processing, it was not up to running the
+Java development Environment, JBoss, and MySQL etc etc.
+
+4. Realise when facing a better solution.  Yes I forgot a crucial syntax of code. However even had I not the winning solution was far more elegent.
+
+Note 1. I have since updated the crucial syntax and the solution does work.
+Note 2. This was built rather quickly, some things I would naturally do differently in a production environment.
+ 
+===== To use: ====================================================================================
+
+This is a web application, you need to access it from a browser. 
+
+http://localhost:8080/SurveyDemo
+
+First you need to create a set of questions, using the "Manage Questions" option.
+THen you need to complete a number of surveys, using the "Manage Surveys" option.
+
+===== Environment: ===============================================================================
+
+It was built using MyEclipse 8.5 using the integrated build tool. 
+It was deployed onto JBoss 5.1
+It accesses a MySQL Database.
+It is accessed via a web browser.
+
+Load the saved project into MyEclipse.... and follow your nose. 
+
+The solution rebuilds the DB every time it is started (this is a config in the db setup file).
+
+But most of all enjoy. If you have read this far I hope you have learnt something from my code and my approach, even if it is how not to do something.
