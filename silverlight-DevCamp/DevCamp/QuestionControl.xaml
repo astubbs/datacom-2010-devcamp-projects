@@ -1,0 +1,28 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="DevCamp.QuestionControl"
+	d:DesignWidth="337" d:DesignHeight="46">
+
+	<Grid x:Name="LayoutRoot">
+		<StackPanel>
+			<TextBlock HorizontalAlignment="Left" x:Name="textBlock1" Text="1. I clearly understand how I can progress in my workplace." FontSize="14.667" />
+			<StackPanel Cursor="Hand" Height="20" Orientation="Horizontal" HorizontalAlignment="Left" Width="137" VerticalAlignment="Bottom">
+				<StackPanel.Background>
+					<LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
+						<GradientStop Color="#FFFF0015"/>
+						<GradientStop Color="#FF00FF46" Offset="1"/>
+					</LinearGradientBrush>
+				</StackPanel.Background>
+				<RadioButton x:Name="_1" Content="1" Checked="_Checked"/>
+                <RadioButton x:Name="_2" Content="2" Checked="_Checked"/>
+                <RadioButton x:Name="_3" Content="3" Checked="_Checked"/>
+                <RadioButton x:Name="_4" Content="4" Checked="_Checked"/>
+                <RadioButton x:Name="_5" Content="5" Checked="_Checked"/>
+			</StackPanel>
+		</StackPanel>
+	</Grid>
+</UserControl>

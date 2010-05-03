@@ -1,0 +1,6 @@
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\MosaicService.dll
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\MosaicService.pdb
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\Microsoft.ServiceModel.Web.pdb
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Release\ResolveAssemblyReference.cache
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Release\MosaicService.dll
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Release\MosaicService.pdb

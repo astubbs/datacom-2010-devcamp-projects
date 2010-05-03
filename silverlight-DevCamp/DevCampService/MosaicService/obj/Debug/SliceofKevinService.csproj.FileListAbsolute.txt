@@ -1,0 +1,20 @@
+C:\dev\MosaicService\MosaicService\MosaicService\bin\MosaicService.dll
+C:\dev\MosaicService\MosaicService\MosaicService\bin\MosaicService.pdb
+C:\dev\MosaicService\MosaicService\MosaicService\bin\Microsoft.ServiceModel.Web.dll
+C:\dev\MosaicService\MosaicService\MosaicService\bin\Microsoft.ServiceModel.Web.pdb
+C:\dev\MosaicService\MosaicService\MosaicService\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\MosaicService\MosaicService\MosaicService\obj\Debug\MosaicService.dll
+C:\dev\MosaicService\MosaicService\MosaicService\obj\Debug\MosaicService.pdb
+C:\dev\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\MosaicService.dll
+C:\dev\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\MosaicService.pdb
+C:\dev\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\Microsoft.ServiceModel.Web.dll
+C:\dev\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\Microsoft.ServiceModel.Web.pdb
+C:\dev\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Debug\MosaicService.dll
+C:\dev\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Debug\MosaicService.pdb
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\MosaicService.dll
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\MosaicService.pdb
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\bin\Microsoft.ServiceModel.Web.pdb
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Debug\MosaicService.dll
+C:\dev\Slice of Kevin\Slice of Kevin\Silce of Kevin Service\MosaicService\obj\Debug\MosaicService.pdb

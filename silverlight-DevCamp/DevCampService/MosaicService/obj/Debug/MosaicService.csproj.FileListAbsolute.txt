@@ -1,0 +1,14 @@
+C:\dev\MosaicService\MosaicService\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\MosaicService\MosaicService\bin\MosaicService.dll
+C:\dev\MosaicService\MosaicService\bin\MosaicService.pdb
+C:\dev\MosaicService\MosaicService\bin\Microsoft.ServiceModel.Web.dll
+C:\dev\MosaicService\MosaicService\bin\Microsoft.ServiceModel.Web.pdb
+C:\dev\MosaicService\MosaicService\obj\Debug\MosaicService.dll
+C:\dev\MosaicService\MosaicService\obj\Debug\MosaicService.pdb
+C:\dev\MosaicService\MosaicService\MosaicService\bin\MosaicService.dll
+C:\dev\MosaicService\MosaicService\MosaicService\bin\MosaicService.pdb
+C:\dev\MosaicService\MosaicService\MosaicService\bin\Microsoft.ServiceModel.Web.dll
+C:\dev\MosaicService\MosaicService\MosaicService\bin\Microsoft.ServiceModel.Web.pdb
+C:\dev\MosaicService\MosaicService\MosaicService\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\MosaicService\MosaicService\MosaicService\obj\Debug\MosaicService.dll
+C:\dev\MosaicService\MosaicService\MosaicService\obj\Debug\MosaicService.pdb

@@ -1,0 +1,6 @@
+C:\Users\me\Documents\Visual Studio 2010\Projects\DevCamp\DevCampService\MosaicService\bin\MosaicService.dll
+C:\Users\me\Documents\Visual Studio 2010\Projects\DevCamp\DevCampService\MosaicService\bin\MosaicService.pdb
+C:\Users\me\Documents\Visual Studio 2010\Projects\DevCamp\DevCampService\MosaicService\bin\Microsoft.ServiceModel.Web.pdb
+C:\Users\me\Documents\Visual Studio 2010\Projects\DevCamp\DevCampService\MosaicService\obj\Release\ResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2010\Projects\DevCamp\DevCampService\MosaicService\obj\Release\MosaicService.dll
+C:\Users\me\Documents\Visual Studio 2010\Projects\DevCamp\DevCampService\MosaicService\obj\Release\MosaicService.pdb

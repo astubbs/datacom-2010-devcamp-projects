@@ -1,0 +1,5 @@
+c:\users\me\documents\visual studio 2010\Projects\DevCamp\DevCamp.Web\bin\DevCamp.Web.dll
+c:\users\me\documents\visual studio 2010\Projects\DevCamp\DevCamp.Web\bin\DevCamp.Web.pdb
+c:\users\me\documents\visual studio 2010\Projects\DevCamp\DevCamp.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\users\me\documents\visual studio 2010\Projects\DevCamp\DevCamp.Web\obj\Debug\DevCamp.Web.dll
+c:\users\me\documents\visual studio 2010\Projects\DevCamp\DevCamp.Web\obj\Debug\DevCamp.Web.pdb

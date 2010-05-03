@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.ServiceModel.Web;
+using System.ServiceModel.Activation;
+using Microsoft.ServiceModel.Web;
+using System.Linq;
+using System.Net;
+
+// The following line sets the default namespace for DataContract serialized typed to be ""
+[assembly: ContractNamespace("", ClrNamespace = "SliceofKevinService")]
+
+namespace SliceofKevinService
+{
+    // TODO: Please set IncludeExceptionDetailInFaults to false in production environments
+    [ServiceBehavior(IncludeExceptionDetailInFaults = true), AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed), ServiceContract]
+    public partial class Service
+    {
+
+        [WebHelp(Comment = "Sample description for ChkUserHandle")]
+        [WebGet(UriTemplate = "ChkUserHandle?U={u}&H={h}")]
+        [OperationContract]
+        public SOKUser ChkUserHandle(string u, string h)
+        {
+            SOKUser result = new SOKUser();
+
+            bool validHandle = false;
+            bool match = cryptography.VerifyHash(u, h);
+
+            if (match)
+            {
+                // the service is verified
+                SliceofKevinDBDataContext db = new SliceofKevinDBDataContext();
+                result = (from usr in db.Users
+                          where (usr.Handle == u)
+                          select new SOKUser
+                          {
+                              Handle = usr.Handle,
+                              PhoneNum = usr.PhoneNum,
+                              WhenAdded = usr.WhenAdded
+                          }).Single();
+
+
+            }
+
+            return result;
+        }
+    }
+
+    /// <summary>
+    /// Example Response body structure. By default all public properties are DataContract serializable
+    /// </summary>
+    public class SOKUser
+    {
+        public string Handle { get; set; }
+        public string PhoneNum { get; set; }
+        public DateTime WhenAdded { get; set; }
+    }
+}

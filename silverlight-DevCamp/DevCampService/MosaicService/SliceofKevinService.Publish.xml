@@ -1,0 +1,16 @@
+<publishData>
+  <publishTarget publishUrl="c:\SOKservice\">
+    <file relUrl="App_Data/Flickr.mdf" publishTime="03/10/2010 17:13:34" />
+    <file relUrl="clientaccesspolicy.xml" publishTime="03/02/2010 16:58:54" />
+    <file relUrl="App_Data/SOK_log.ldf" publishTime="03/12/2010 13:14:27" />
+    <file relUrl="App_Data/Flickr_log.ldf" publishTime="03/10/2010 17:13:34" />
+    <file relUrl="bin/MosaicService.pdb" publishTime="03/13/2010 09:56:31" />
+    <file relUrl="WordList.xml" publishTime="03/03/2010 18:33:06" />
+    <file relUrl="Web.config" publishTime="03/11/2010 19:58:12" />
+    <file relUrl="Service.svc" publishTime="03/02/2010 16:10:26" />
+    <file relUrl="bin/Microsoft.ServiceModel.Web.pdb" publishTime="12/09/2009 12:34:44" />
+    <file relUrl="bin/MosaicService.dll" publishTime="03/13/2010 09:56:31" />
+    <file relUrl="App_Data/SOK.mdf" publishTime="03/12/2010 13:14:27" />
+    <file relUrl="bin/Microsoft.ServiceModel.Web.dll" publishTime="12/09/2009 12:38:30" />
+  </publishTarget>
+</publishData>

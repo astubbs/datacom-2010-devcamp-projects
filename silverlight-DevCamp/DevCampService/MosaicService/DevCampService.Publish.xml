@@ -1,0 +1,11 @@
+<publishData>
+  <publishTarget publishUrl="c:\devcampservice\">
+    <file relUrl="Web.config" publishTime="05/01/2010 17:54:42" />
+    <file relUrl="bin/Microsoft.ServiceModel.Web.pdb" publishTime="12/10/2009 09:34:44" />
+    <file relUrl="Service.svc" publishTime="05/01/2010 17:24:29" />
+    <file relUrl="clientaccesspolicy.xml" publishTime="03/03/2010 13:58:54" />
+    <file relUrl="bin/Microsoft.ServiceModel.Web.dll" publishTime="12/10/2009 09:38:30" />
+    <file relUrl="bin/MosaicService.dll" publishTime="05/03/2010 12:08:22" />
+    <file relUrl="bin/MosaicService.pdb" publishTime="05/03/2010 12:08:22" />
+  </publishTarget>
+</publishData>

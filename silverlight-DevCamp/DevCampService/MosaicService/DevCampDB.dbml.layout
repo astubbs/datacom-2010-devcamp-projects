@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DevCampDB">
+  <DataContextMoniker Name="/DevCampDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ff8b209f-9bb4-4677-99cd-896523079884" absoluteBounds="3.5, 0.875, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/DevCampDBDataContext/Vote" />
+      <nestedChildShapes>
+        <elementListCompartment Id="51a81ea8-bf41-40da-84d1-06f2898175c5" absoluteBounds="3.515, 1.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c18c9efa-d6b2-4c3c-81f8-7a74ccccc142" absoluteBounds="0.75, 1, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DevCampDBDataContext/Question" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72ea0aea-ed17-49e8-8a95-b72a922f3190" absoluteBounds="0.765, 1.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7a8bb2ce-740d-4093-a805-321dd39c9b5d" absoluteBounds="0.75, 4, 2, 1.193992513020834">
+      <DataClassMoniker Name="/DevCampDBDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d963f950-2d1d-4f90-8bd6-22c13113cf7a" absoluteBounds="0.765, 4.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.59699625651042); (3.5 : 1.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DevCampDBDataContext/Question/Question_Vote" />
+      <nodes>
+        <classShapeMoniker Id="c18c9efa-d6b2-4c3c-81f8-7a74ccccc142" />
+        <classShapeMoniker Id="ff8b209f-9bb4-4677-99cd-896523079884" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.59699625651042); (4.5 : 4.59699625651042); (4.5 : 2.2612939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DevCampDBDataContext/User/User_Vote" />
+      <nodes>
+        <classShapeMoniker Id="7a8bb2ce-740d-4093-a805-321dd39c9b5d" />
+        <classShapeMoniker Id="ff8b209f-9bb4-4677-99cd-896523079884" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

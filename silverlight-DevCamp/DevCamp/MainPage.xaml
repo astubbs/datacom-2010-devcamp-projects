@@ -1,0 +1,169 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:local="clr-namespace:DevCamp" xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" x:Class="DevCamp.MainPage"
+    d:DesignHeight="402" d:DesignWidth="473" Loaded="UserControl_Loaded">
+	<UserControl.Resources>
+		<Storyboard x:Name="FlipToQPanel">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="UserPanel" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="UserPanel" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationZ)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="UserPanel" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="90">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="QuestionPanel" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="90">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="QuestionPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00.5000000">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="UserPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="00:00:00.5000000">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="FliptoRPanel">
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="UserPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="QuestionPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="QuestionPanel" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="90">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<CircleEase EasingMode="EaseInOut"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ResultsPanel" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="90"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ResultsPanel" Storyboard.TargetProperty="(UIElement.Visibility)">
+				<DiscreteObjectKeyFrame KeyTime="00:00:00.5000000">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ResultsPanel" Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationZ)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <StackPanel x:Name="UserPanel" Margin="0" d:IsHidden="True">
+        	<StackPanel.Background>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="#FF0779D7" Offset="0"/>
+        			<GradientStop Color="White" Offset="1"/>
+        		</LinearGradientBrush>
+        	</StackPanel.Background>
+        	<StackPanel.Projection>
+        		<PlaneProjection/>
+        	</StackPanel.Projection>
+    		<TextBlock HorizontalAlignment="Left" FontSize="18.667" Text="What is your Name?" TextWrapping="Wrap"/>
+    		<TextBox x:Name="nameTB" TextWrapping="Wrap"/>
+    		<TextBlock HorizontalAlignment="Left" FontSize="18.667" Text="Add a question below if you like:" TextWrapping="Wrap"/>
+    		<TextBox x:Name="qTB" TextWrapping="Wrap"/>
+    		<Button Cursor="Hand" FontSize="16" Content="Continue" x:Name="registerBtn" Click="registerBtn_Click"/>
+    	</StackPanel>
+    	<ScrollViewer x:Name="scrlViewer" Margin="0" BorderThickness="0" Padding="0" VerticalScrollBarVisibility="Auto">
+    		<StackPanel x:Name="QuestionPanel" Margin="0" Visibility="Collapsed">
+    			<StackPanel.Background>
+    				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    					<GradientStop Color="#FFFFA700" Offset="0"/>
+    					<GradientStop Color="White" Offset="1"/>
+    				</LinearGradientBrush>
+    			</StackPanel.Background>
+    			<StackPanel.Projection>
+    				<PlaneProjection/>
+    			</StackPanel.Projection>
+    		</StackPanel>
+    	</ScrollViewer>
+    	<ScrollViewer x:Name="scrlResults" Margin="0" BorderThickness="0" Padding="0" VerticalScrollBarVisibility="Auto">
+    		<StackPanel x:Name="ResultsPanel" Margin="0" Visibility="Collapsed">
+    			<StackPanel.Background>
+    				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    					<GradientStop Color="#FF4EFF00" Offset="0"/>
+    					<GradientStop Color="White" Offset="1"/>
+    				</LinearGradientBrush>
+    			</StackPanel.Background>
+    			<StackPanel.Projection>
+    				<PlaneProjection/>
+    			</StackPanel.Projection>
+    			<Image HorizontalAlignment="Left" Source="welldone.jpg" Stretch="UniformToFill" Height="150" Margin="0,-30,0,0" Width="200"/>
+    		</StackPanel>
+    	</ScrollViewer>
+    </Grid>
+</UserControl>

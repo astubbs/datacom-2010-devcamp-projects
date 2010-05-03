@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCamp", "DevCamp\DevCamp.csproj", "{47A6E763-4D3D-400A-85E3-A31042687B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCamp.Web", "DevCamp.Web\DevCamp.Web.csproj", "{2E9B3833-2F0E-4777-9FB3-E7CFDEAB30A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47A6E763-4D3D-400A-85E3-A31042687B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A6E763-4D3D-400A-85E3-A31042687B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A6E763-4D3D-400A-85E3-A31042687B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A6E763-4D3D-400A-85E3-A31042687B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9B3833-2F0E-4777-9FB3-E7CFDEAB30A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9B3833-2F0E-4777-9FB3-E7CFDEAB30A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9B3833-2F0E-4777-9FB3-E7CFDEAB30A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9B3833-2F0E-4777-9FB3-E7CFDEAB30A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
